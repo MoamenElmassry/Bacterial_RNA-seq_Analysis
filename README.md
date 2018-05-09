@@ -10,7 +10,7 @@ You can FASTQ or FASTA files as input. Here I have 2 experiemntal groups, contro
 java -Xmx4096m -cp ~/Rockhopper.jar Rockhopper -o output/ -g genomes/Pseudomonas_aeruginosa_UCBPP_PA14/ C1_R1.fastq%C1_R2.fastq,C2_R1.fastq%C2_R2.fastq,C3_R1.fastq%C3_R2.fastq T1_R1.fastq%T1_R2.fastq,T2_R1.fastq%T2_R2.fastq,T3_R1.fastq%T3_R2.fastq -v true -L control,treatment
 ```
 
-The main output file is CSV file that includes, raw counts, normalized count, p-value and q-value (corrected p-value). The other file "summary" will show you the percentage of reads that were aligned to each strand, protein-coding, non-coding regions, and ribosomal RNA.
+The main output file is a CSV file that includes, raw count, normalized count for each gene, p-value and q-value (corrected p-value). The other file "summary" will show you the percentage of reads that were aligned to each strand, protein-coding, non-coding regions, and ribosomal RNA.
 
 ## References
 [Rockhopper](https://cs.wellesley.edu/~btjaden/Rockhopper/index.html)
