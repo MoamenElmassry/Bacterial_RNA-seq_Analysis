@@ -12,7 +12,7 @@ java -Xmx4096m -cp ~/Rockhopper.jar Rockhopper -o output/ -g genomes/Pseudomonas
 
 The main output file is CSV file that includes, raw counts, normalized count, p-value and q-value (corrected p-value). The other file "summary" will show you the percentage of reads that were aligned to each strand, protein-coding, non-coding regions, and ribosomal RNA.
 
-# Reference
+## References
 [Rockhopper](https://cs.wellesley.edu/~btjaden/Rockhopper/index.html)
 
 [Pseudomonas](http://www.pseudomonas.com/)
