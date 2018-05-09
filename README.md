@@ -1,5 +1,5 @@
 # Bacterial RNA-seq Analysis
-The simplest RNA-seq analysis pipeline for *Pseudomonas aeruginosa* (or any bacterium with a reference genome) using Rockhopper system.
+The simplest and fastest RNA-seq analysis pipeline for *Pseudomonas aeruginosa* (or any bacterium with a reference genome) using Rockhopper system. This software was developed by [Brian Tjaden](http://www.wellesley.edu/cs/faculty/tjaden) at the Department of Computer Science, Wellesley College.
 
 The example provided here is done using *Pseudomonas aeruginosa* strain UCBPP-PA14. For any other bacteria that already has a reference genome, you can simply modify the -g argument with your reference genome.
 Rockhopper can run on any platform, but herein I providing an example using UNIX because I had many files. Rockhopper needs Java to run, so make sure you have it first. Then download the JAR file of [Rockhopper]( https://cs.wellesley.edu/~btjaden/Rockhopper/download.html) and run it.
